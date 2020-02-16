@@ -21,7 +21,7 @@
     transition:  0.5s;
 }
 
-.bottom:active {
+.bottom:hover {
     transform: translateY(-15px);
     height: 450px ;
     transition:  transform 0.5s;

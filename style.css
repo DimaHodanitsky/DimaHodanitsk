@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 375px) {
+
+ .main {
+     background-color: #AA663D;
+     height: 812px;
+ }
+.top {
+    height: 406px;
+}
+
+.bottom {
+    background-color: #C4E7B4;
+    height: 410px;
+    border: 1px solid #C4E7B4;
+    border-radius: 20px 20px 0px 0px;
+    transition:  0.5s;
+}
+
+.bottom:active {
+    transform: translateY(-15px);
+    height: 450px ;
+    transition:  transform 0.5s;
+}
+
+.content {
+    
+}
+
+}
